@@ -2,6 +2,16 @@ package main
 
 import "fmt"
 
+var i int = 1
+
+var (
+	name    = "Dan"
+	surname = "Safarik"
+	age     = 29
+)
+
 func main() {
-	fmt.Println("Hello, world")
+	var j string
+	j = fmt.Sprint(age)
+	fmt.Printf("%v, %T", j, j)
 }
