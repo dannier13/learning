@@ -11,7 +11,6 @@ var (
 )
 
 func main() {
-	var j string
-	j = fmt.Sprint(age)
-	fmt.Printf("%v, %T", j, j)
+	n := 1 == 2
+	fmt.Printf("%v, %T\n", n, n)
 }
