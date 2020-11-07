@@ -19,5 +19,6 @@ func panicker() {
 		}
 	}()
 	panic("something bad happened")
-	fmt.Println("done panicking")
+	//fmt.Println("done panicking")
+
 }
