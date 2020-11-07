@@ -81,8 +81,6 @@ func main() {
 	switch j.(type) {
 	case int:
 		fmt.Println("i is an int")
-		break
-		fmt.Println("This will print too")
 	case float64:
 		fmt.Println("i is a float64")
 	case string:
