@@ -14,7 +14,7 @@ func main() {
 	x := [3]int{1, 2, 3}
 	y := &x[0]
 	z := &x[1]
-	fmt.Println("%v %p %p\n", x, y, z)
+	fmt.Println("%v %v %v\n", x, y, z)
 
 	var ms *myStruct
 	ms = new(myStruct)
